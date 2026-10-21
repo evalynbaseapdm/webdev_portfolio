@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student Grades</h1>
+        <p>View your academic performance for each subject below.</p>
+    </header>
+
+    <nav> 
+        <a href="index5.html">Home</a>
+        <a href="registration5.html">Registration</a>
+        <a href="grade5.html">Grades</a>
+        <a href="profile5.html">Profile</a>
+    </nav>
+
+    <main>
+        <section class="grades-section">
+            <h2>Student Grade Report</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Code</th>
+                        <th scope="col">Subject</th>
+                        <th scope="col">Instructor</th>
+                        <th scope="col">Units</th>
+                        <th scope="col">Grade</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CS31-WebDev</td>
+                        <td>Web Development</td>
+                        <td>Mr. Agoy</td>
+                        <td>3</td>
+                        <td>1.25</td>
+                        <td>Passed</td>
+                    </tr>
+                    <tr id="AlgoC">
+                        <td>CS31-AlgoC</td>
+                        <td>Algorithm Complexity</td>
+                        <td>Mr. Calilong</td>
+                        <td>3</td>
+                        <td>1.75</td>
+                        <td>Passed</td>
+                    </tr>
+                    <tr id="DSAn">
+                        <td>CS31-DSAn</td>
+                        <td>Data Science and Analytics</td>
+                        <td>Mr. Pangilinan</td>
+                        <td>3</td>
+                        <td>1.00</td>
+                        <td>Passed</td>
+                    </tr>
+                    <tr id="AppDev">
+                        <td>CS31-AppDev</td>
+                        <td>Application Development</td>
+                        <td>Mr. Pardico</td>
+                        <td>3</td>
+                        <td>1.00</td>
+                        <td>Passed</td>
+                    </tr>
+                    <tr id="OS">
+                        <td>CS31-OS</td>
+                        <td>Operating System</td>
+                        <td>Mr. Casuco</td>
+                        <td>3</td>
+                        <td>1.25</td>
+                        <td>Passed</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td id="average" colspan="4">General Average</td>
+                        <td id="general-average" colspan="2">1.29</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 evaaah</p>
+    </footer>
+
+</body>
+</html>
